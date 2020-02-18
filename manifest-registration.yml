@@ -2,7 +2,7 @@ applications:
 - name: tracker-sree-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-sreelatha-distributed.apps.evans.pal.pivotal.io
+  - route: tracker-sree-registration.cfapps.io
   memory: 1G
   instances: 1
   env:
