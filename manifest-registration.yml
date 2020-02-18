@@ -1,5 +1,5 @@
 applications:
-- name: tracker-registration
+- name: tracker-sree-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
   - route: registration-pal-sreelatha-distributed.apps.evans.pal.pivotal.io

@@ -1,5 +1,5 @@
 applications:
-- name: tracker-backlog
+- name: tracker-sree-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
   - route: backlog-pal-sreelatha-distributed.apps.evans.pal.pivotal.io
