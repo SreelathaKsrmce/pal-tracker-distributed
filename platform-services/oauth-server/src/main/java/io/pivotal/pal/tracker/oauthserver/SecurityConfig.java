@@ -20,7 +20,7 @@ public class SecurityConfig extends AuthorizationServerConfigurerAdapter {
                 .scopes("openid");
     }
 
-    
+
     @Override
     public void configure(AuthorizationServerSecurityConfigurer oauthServer)
             throws Exception {
