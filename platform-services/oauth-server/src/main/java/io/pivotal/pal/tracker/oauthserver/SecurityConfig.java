@@ -21,7 +21,6 @@ public class SecurityConfig extends AuthorizationServerConfigurerAdapter {
     }
 
     @Override
-    @SuppressWarnings("deprecation")
     public void configure(AuthorizationServerSecurityConfigurer oauthServer)
             throws Exception {
         oauthServer
